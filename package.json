@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-loading-button",
+  "version": "1.0.0",
+  "description": "NodeJS Loading Button",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plbranson/nodejs-loading-button.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "dotenv",
+    "javascript"
+  ],
+  "author": "Patrick L. Branson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plbranson/nodejs-loading-button/issues"
+  },
+  "homepage": "https://github.com/plbranson/nodejs-loading-button#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "helmet": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
