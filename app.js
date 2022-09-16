@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", (req, res) => {
-  res.sendFile(path.resolve(__filename + "index.html"));
+  res.sendFile(path.resolve(__filename, "index.html"));
 });
 
 app.listen(PORT, () => {
